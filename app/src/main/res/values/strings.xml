@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Sports Feed</string>
+    <string name="settings_activity">Settings</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="no_data">No data to display</string>
+
+    <!--The following strings are for the settings screen -->
+    <string name="settings_no_of_news_label">Maximum News Displayed</string>
+    <string name="settings_max_news_displayed_key" translatable="false">nr_news</string>
+    <string name="settings_max_news_displayed_default" translatable="false">10</string>
+
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+</resources>
